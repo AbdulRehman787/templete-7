@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-img{
+    background-image: url('./img/profile_girl.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100vh;
+    position: fixed;
+}
+
+
+.right-container {
+    margin-left: 40%;
+    position: relative;
+    padding: 12px 16px;
+    margin-right: 22px;
+}
+.bars {
+    width: auto;
+    position: absolute;
+    right: 0;
+    font-size: 36px;
+}
+#check {
+    display: none;
+    
+}
+input {
+    width: 100%;
+    padding: 19px 8px;
+    margin: 8px 0px;
+    border: 1px #ddd solid;
+}
+.fa-bars:before, .fa-navicon:before {
+    content: "\f0c9";
+}
+.menu {
+    list-style: none;
+    margin-right: 0px;
+    display: list-item;
+    background-color: #000;
+    height: 50%;
+}
+.menu {
+    position: fixed;
+    width: 60%;
+    height: 100%;
+    min-height: 100%;
+    top: 50px;
+    right: -100%;
+    transition: all .5s;
+    text-align: center;
+    padding: 150px 0px;
+}
+label {
+    cursor: default;
+}
+.links {
+    list-style: none;
+    padding: 10px 0px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+li>a {
+    list-style: none;
+    color: #ccc;
+    text-decoration: none;
+}
+#check:checked~.menu {
+    right: 0;
+}
+
+.container1{
+    text-align: center;
+    padding: 150px 16px 149px 16px;
+}
+
+
+.head1{
+    font-size: 64px;
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+}
+.para1{
+    margin: 15px 0px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+}
+.btn>button{
+    margin: 15px 0px 0px 0px;
+    padding: 12px 8px;
+    border: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: "Montserrat",sans-serif;
+}
+.btn>button:hover{
+    background-color: #ccc;
+}
+
+.img-none{
+    display: none;
+
+}
+.container2{
+    width: 100%;
+}
+.head2{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Montserrat",sans-serif;
+    padding: 0px 0px 20px 0px; 
+    border-bottom: 1px solid #ccc;
+}
+.container2-images{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.img-1>img {
+    width: 100%;
+    vertical-align: middle;
+    margin-bottom: 12px;
+}
+.img-1,.img-2{
+   padding: 0px 8px;
+   width: 100%;
+}
+.img-2>img {
+    width: 100%;
+    margin-bottom: 12px;
+    vertical-align: middle;
+}
+
+.container3{
+    width: 100%;
+    
+}
+.para3{
+    width: 100%;
+    padding: 20px auto;
+    text-align: justify;
+}
+.container4{
+    width: 100%;
+    padding: 0px 0px 20px 0px; 
+}
+.head4{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Montserrat",sans-serif;
+    padding: 0px 0px 20px 0px; 
+    color: #616161;
+
+}
+.percentage-1 , .percentage-2 , .percentage-3{
+    background-color: #f1f1f2;
+    width: 100%;
+    
+}
+.text-1, .text-2, .text-3 {
+    background-color: #616161;
+    color: #fff;
+    text-align: center;
+    padding: 4px 8px;
+    width: 95%;
+}
+.text-1{
+    width: 95%;
+}
+.text-2{
+    width: 85%;
+}
+.text-3{
+    width: 80%;
+}
+.section-container{
+    margin: 37px 0px 30px 0px;
+    padding: 32px 8px;
+    display: flex;
+    border: 1px solid;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #616161;
+    color: #fff;
+    align-items: center;
+    font-family: "Montserrat",sans-serif;
+}
+.number-size{
+    font-size: 24px;
+    font-family: "Montserrat",sans-serif;
+}
+
+.container5{
+    width: 100%;
+    
+}
+.man-section{
+    display: flex;
+    position: relative;
+   padding: 12px 16px;
+
+}
+.left-img p>img{
+    width: 80px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+.text5{
+    font-family: "Montserrat";
+    margin: 5px 0px ;
+    padding: 10px 0px;
+}
+
+.container6{
+    width: 100%;
+    
+}
+.main-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.card-left{
+    border: 1px solid #ccc;
+    width: 48%;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.card-right{
+    border: 1px solid #ccc;
+    width: 48%;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.header-1{
+    padding: 16px;
+    text-align: center;
+    background-color: #616161;
+    color: #fff;
+    font-family: "Montserrat";
+    border: none;
+}
+.header-2{
+   
+    padding: 16px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-family: "Montserrat";
+}
+.card-body ul li{
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+    padding: 16px 0px;
+    font-size: 15px;
+    font-family: "MontSerrat";
+    width: 90%;
+}
+.card-num{
+    padding: 16px 0px ;
+}
+h2 {
+    font-size: 30px;
+    color: #757575;
+    margin: 10px 0px;
+    padding: 0px 8px;
+}
+.card-footer{
+    padding: 24px 16px;
+    background-color: #ccc;
+}
+.card-btn{
+    padding: 8px 16px;
+    border: none;
+}
+.container7{
+    padding: 64px 8px 100px 8px;
+}
+.icons-section{
+    display: flex;
+    margin: 24px 0px;
+    padding: 6px 0px;
+}
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    
+}
+.icon {
+    font-size: 36px;
+    color: #616161;
+    width: 1.28571429em;
+    text-align: center;
+}
+.icons-section>p {
+    margin: 13px 0px 0px 24px;
+}
+.map-img{
+    width: 100%;
+    padding:26px 0px;
+}
+.map-img img{
+    width: 100%;
+}
+.head4-8{
+    font-family: "Montserrat";
+    font-size: 22px;
+    color: #616161;
+}
+footer{
+    margin: 16px 0px;
+    padding: 68px 64px;
+    background-color: #ccc;
+    text-align: center;
+}
+.para-7{
+    color: #616161;
+    padding: 12px 0px;
+}
+
+.para-7 p>a{
+    color: #616161;
+}
+
+@media only screen and (max-width: 900px){
+    .bg-img{
+        display: none;
+        margin: 0 !important;
+        width: 0%;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+    }
+    .right-container{
+        margin: 0 !important;
+        background-image: url('./img/profile_girl.jpg');
+        background-position: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+       
+    }
+    .head1 {
+        color: #fff;
+    }
+    .para1{
+        color: #fff;
+    }
+}
